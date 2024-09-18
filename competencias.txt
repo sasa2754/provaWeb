@@ -1,0 +1,32 @@
+Aplicar estruturação semântica (Header, Main, Footer, Section) V
+Trabalhar com imagens V
+Utilizar elementos link V
+Utilizar personalização de textos V
+Trabalhar com eventos do mouse V
+Utilizar margin/padding V
+Manipular cores simples V
+Manipular gradient V
+Manipular background V
+Trabalhar com bootstrap V 
+Trabalhar com bordas V
+Criar formulário/inputs V
+Utilizar método Get com parâmetros V
+Utilizar método Post V
+Criar rotas V
+Criar modelos no sql com sequelize V
+Aplicar inserção e busca com SQL V
+Aplicar exclusão dos dados no SQL V
+Aplicar atualizações dos dados no SQL V
+Aplicar estruturação dos arquivos V
+Criar variáveis e operações com JavaScript V
+Apresentar dados no front V
+Realizar alertas ao usuário com JS V
+Manipular eventos de click e submit com JS V
+Aplicar manipulação de fontes V
+Aplicar manipulação de sombras V
+
+
+EXTRA
+Criar e utilizar Modal v
+Aplicar responsividade V
+ 
