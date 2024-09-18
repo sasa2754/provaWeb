@@ -12,36 +12,27 @@ module.exports = {
     },
 
     async apagarChamados(req, res) {
-        const todos = await chamado.findAll({
-            raw: true,
-            atributes: ['IDChamado', 'NomePessoa', 'Descricao', 'Tipo'],
-        });
-
-        if (todos != null) {
-            await todos.destroy();
-        }
+       
+            await chamado.truncate();
 
         res.redirect('/');
     },
 
     async apagarExclusivo(req, res) {
-        const id = req.params.IDChamado;
+        const id = req.params.id;
 
-        const unico = await chamado.findByPk(id);
-
-        if (unico != null) {
-            unico.destroy({
-                where: {
-                    IDChamado: `${id}`,
-                },
-            });
-        }
+        chamado.destroy({
+            where: {
+                IDChamado: id,
+            },
+        });
+    
         res.redirect('/');
     },
 
     async editar(req, res) {
         const dados = req.body;
-        const id = req.params.IDChamado;
+        const id = req.params.id;
 
         await chamado.update({
             IDChamado: dados.IDChamado,

@@ -9,8 +9,8 @@ route.get('/', home.pagInicialGet);
 // route.post('/', home.pagInicialPost);
 
 route.post('/apagarChamados', home.apagarChamados);
-route.post('/apagarExclusivo', home.apagarExclusivo);
-route.post('/editar', home.editar);
+route.post('/apagarExclusivo/:id', home.apagarExclusivo);
+route.post('/editar/:id', home.editar);
 
 route.post('/abrirChamado', chamados.chamadoInsert);
 // route.get('/', chamados.chamadoGet);

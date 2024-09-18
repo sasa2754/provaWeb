@@ -221,7 +221,7 @@
                                                     </button>
                                                 </div>
                             
-                                                <form action="/editar" method="post">
+                                                <form action="/editar/<%= chamados[i].IDChamado  %>" method="post">
                                                     <div class="modal-body">
 
                                                         <div class="form-group">
@@ -241,7 +241,7 @@
                                 
                                                         <div class="form-group">
                                                             <label for="tipo">Tipo:</label>
-                                                            <input type="text" class="form-control" id="descricao" name="descricao" value="<%= chamados[i].Tipo  %>">
+                                                            <input type="text" class="form-control" id="tipo" name="tipo" value="<%= chamados[i].Tipo  %>">
                                                         </div>
                                 
                                                     </div>
@@ -256,7 +256,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <form action="/apagarExclusivo/<%= chamados[i].IDChamado  %>" method="post">
+                                    <form action="/apagarExclusivo/<%= chamados[i].IDChamado %>" method="post">
                                         <button class="btn" type="submit"><img src="img/Icons Utilizados/lixeira.png" alt="apagar" class="acao"></button>
                                     </form>
                                 </td>
