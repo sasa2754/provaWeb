@@ -1,0 +1,68 @@
+body {
+    overflow-x: hidden;
+    background-color: rgb(236, 236, 236);
+}
+
+nav {
+    background: rgb(46,19,80);
+    background: linear-gradient(90deg, rgba(46,19,80,1) 0%, rgba(72,31,95,1) 25%, rgba(69,40,116,1) 50%, rgba(39,85,137,1) 75%, rgba(12,170,165,1) 100%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.411);
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(46,19,80);
+    background: linear-gradient(180deg, rgba(46,19,80,1) 0%, rgba(72,31,95,1) 25%, rgba(69,40,116,1) 50%, rgba(39,85,137,1) 75%, rgba(12,170,165,1) 100%);
+}
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone {
+    /* max-width: 5%; */
+    width: 2rem;
+}
+
+.imagem {
+    max-width: 90%;
+    height: 250px;
+}
+
+.linha {
+    max-width: 100%;
+    width: 2000px;
+    height: 3px;
+    background: rgb(46,19,80);
+    background: linear-gradient(90deg, rgba(46,19,80,1) 0%, rgba(72,31,95,1) 25%, rgba(69,40,116,1) 50%, rgba(39,85,137,1) 75%, rgba(12,170,165,1) 100%);
+    color: transparent;
+}
+
+.apagar {
+    background-color: grey;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+}
+
+.acao {
+    width: 25px;
+}
